@@ -1,3 +1,7 @@
+package src.main;
+
+import java.util.Scanner;
+
 public class ProjetDevops {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -16,6 +20,7 @@ public class ProjetDevops {
         if (b != 0) {
             division = a / b;
         } else {
+            System.out.println("Impossible de diviser par zéro !");
             division = Double.NaN;
         }
 
